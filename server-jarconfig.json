@@ -2,7 +2,7 @@
     {
         "DisplayName":"Java Version",
         "Category":"Java Settings",
-        "Description":"Sets the Java version to install.",
+        "Description":"Sets the Java version to install. Must be a major version number only such as 17 or 19, not a subversion. Check the [Geyser wiki](https://wiki.geysermc.org/geyser/setup/) for versions compatible with Geyser, and the [Oracle website](https://www.oracle.com/java/technologies/downloads/) for available downloads. Server must be updated after changing this setting",
         "Keywords":"java,version",
         "FieldName":"JavaVersion",
         "InputType":"number",
@@ -12,36 +12,6 @@
         "IncludeInCommandLine":false,
         "DefaultValue":"19",
         "EnumValues":{}
-    },
-	{
-        "DisplayName":"Server Type",
-        "Category":"Server Settings",
-        "Description":"Sets the Server Type to install.",
-        "Keywords":"Server,Type",
-        "FieldName":"ServerType",
-		"ParamFieldName":"ServerType"
-        "InputType":"enum",
-        "EnumValues":{
-			"Bedrock": "bedrock",
-			"Modded": "modded",
-			"Proxies":"proxies",
-			"Server":"servers",
-			"Vanilla":"vanilla"
-		},
-		"DefaultValue":"Vanilla",
-	{
-        "DisplayName":"Server category Proxies",
-        "Category":"Server Settings",
-        "Description":"Sets the Server category to install.",
-        "Keywords":"Server,category",
-        "FieldName":"ServerCategory",
-		"ParamFieldName":"ServerCategory"
-        "InputType":"enum",
-        "EnumValues":{
-			"Bungeecord": "bungeecord",
-			"Waterfall":"waterfall"
-		},
-		"DefaultValue":"Bungeecord",
     },
     {
         "DisplayName":"Minimum Memory",
