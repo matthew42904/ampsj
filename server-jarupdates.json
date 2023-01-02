@@ -23,7 +23,7 @@
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"Executable",
         "UpdateSourceData":"cmd.exe",
-        "UpdateSourceArgs":"/C RD /S /Q .\\geyser\\java"
+        "UpdateSourceArgs":"/C RD /S /Q .\\server-jar\\java"
     },
     {
         "UpdateStageName":"Java Download",
@@ -46,14 +46,14 @@
         "UpdateSourcePlatform":"Windows",
         "UpdateSource":"Executable",
         "UpdateSourceData":"cmd.exe",
-        "UpdateSourceArgs":"/C move .\\geyser\\jdk* .\\geyser\\java"
+        "UpdateSourceArgs":"/C move .\\server-jar\\jdk* .\\server-jar\\java"
     },
     {
         "UpdateStageName":"Replace Java Directory",
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c 'rm -rf ./geyser/java ; mv ./geyser/jdk* ./geyser/java'"
+        "UpdateSourceArgs":"-c 'rm -rf ./server-jar/java ; mv ./server-jar/jdk* ./server-jar/java'"
     },
     {
         "UpdateStageName":"Pause Update Stages",
