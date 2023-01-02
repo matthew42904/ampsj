@@ -14,19 +14,21 @@
         "EnumValues":{}
     },
 	{
-        "DisplayName":"TEST",
-        "Category":"Server Settings",
-        "Description":"TEST",
-        "Keywords":"java,version",
-        "FieldName":"TEST",
-        "InputType":"number",
-        "MinValue":"17",
-        "IsFlagArgument":false,
-        "ParamFieldName":"TEST",
-        "IncludeInCommandLine":false,
-        "DefaultValue":"19",
-        "EnumValues":{}
-    },
+		"DisplayName": "Single choice option",
+		"Description": "The user can select one of the following options",
+		"FieldName": "beverage",
+		"Category": "Server Settings",
+		"ParamFieldName": "beverage",
+		"IncludeInCommandLine": true,
+		"InputType": "enum",
+		"EnumValues": {
+		  "0": "Water",
+		  "10": "Cola",
+		  "20": "Apple Juice",
+		  "999": "Other"
+		},
+		"DefaultValue": "10"
+	},
     {
         "DisplayName":"Minimum Memory",
         "Category":"Java Settings",
