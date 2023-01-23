@@ -26,7 +26,7 @@
 		  "vanilla": "vanilla",
 		  "bedrock": "bedrock",
 		  "modded": "modded",
-		  "servers": "serverse",
+		  "servers": "servers",
 		  "proxies": "proxies"
 		},
 		"DefaultValue": "vanilla"
