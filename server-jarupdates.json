@@ -4,7 +4,7 @@
         "UpdateSourcePlatform":"All",
         "UpdateSource":"FetchURL",
         "UpdateSourceData":"https://serverjars.com/api/fetchJar/{{type}}/{{category}}/{{version}}",
-        "UpdateSourceArgs":"{{category}}-{{version}}.jar",
+        "UpdateSourceArgs":"server.jar",
         "UpdateSourceTarget":"{{$FullRootDir}}",
         "OverwriteExistingFiles":true
     },
