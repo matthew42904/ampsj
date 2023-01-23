@@ -16,7 +16,7 @@
     },
 	{
 		"DisplayName": "Server Type",
-		"Description": "The user can select one of the following options",
+		"Description": "The user can select one of the following options for the server type they want",
 		"FieldName": "type",
 		"Category": "Server Settings",
 		"ParamFieldName": "type",
