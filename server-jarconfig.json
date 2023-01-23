@@ -44,6 +44,20 @@
     "DefaultValue":"vanilla",
     "EnumValues":{}
   },
+
+  {
+    "DisplayName":"Server Version",
+    "Category":"Server Settings",
+    "Description":"Type in the server Version you want. leave black for latest for a list got to http://kemos-server.duckdns.org:8058/",
+    "Keywords":"version",
+    "FieldName":"version",
+    "InputType":"text",
+    "IsFlagArgument":false,
+    "ParamFieldName":"version",
+    "IncludeInCommandLine":false,
+    "DefaultValue":"",
+    "EnumValues":{}
+  },
     {
         "DisplayName":"Maximum Memory",
         "Category":"Server Settings",
