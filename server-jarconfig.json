@@ -31,9 +31,22 @@
 		},
 		"DefaultValue": "vanilla"
 	},
+  {
+    "DisplayName":"Server Category",
+    "Category":"Server Settings",
+    "Description":"Type in the server category you want. for a list got to http://kemos-server.duckdns.org:8058/",
+    "Keywords":"category",
+    "FieldName":"category",
+    "InputType":"text",
+    "IsFlagArgument":false,
+    "ParamFieldName":"category",
+    "IncludeInCommandLine":false,
+    "DefaultValue":"vanilla",
+    "EnumValues":{}
+  },
     {
         "DisplayName":"Maximum Memory",
-        "Category":"Java Settings",
+        "Category":"Server Settings",
         "Description":"Java's maximum heap size",
         "Keywords":"maximum,memory,heap",
         "FieldName":"MaxMemory",
